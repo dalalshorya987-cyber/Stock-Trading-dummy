@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Stock Trading Simulation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="container">
+    <h2>📈 Stock Trading Simulation</h2>
+    <p class="subtitle">Practice stock trading with virtual money (No real risk)</p>
+
+    <input type="text" id="name" placeholder="Stock Name">
+
+    <input
+            type="number"
+            id="price"
+            placeholder="Price"
+            min="1"
+            step="1"
+            required
+    >
+    <input
+            type="number"
+            id="quantity"
+            placeholder="Quantity"
+            min="1"
+            step="1"
+            required
+    >
+
+
+    <button onclick="addStock()">Add Stock</button>
+
+    <div class="wallet">
+        💰 Wallet Balance: ₹<span id="balance">100000</span>
+    </div>
+
+    <h3>Available Stocks</h3>
+    <ul id="stockList"></ul>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
