@@ -1,6 +1,6 @@
 # 📈 Stock Trading Simulation
 
-A full stack Stock Trading Simulation project developed as part of the **EazyByts Java Developer Internship (Week 2 Project)**.
+A
 
 This application allows users to simulate stock trading using virtual money, helping them understand buying and selling logic without real financial risk.
 
@@ -62,13 +62,4 @@ This application allows users to simulate stock trading using virtual money, hel
 ## 👨‍💻 Author
 
 **Shorya Dalal**  
-Java Developer Intern – EazyByts
-
----
-
-## 📌 Internship
-
-This project was submitted as **Week 2 Assignment** for the **EazyByts Java Developer Internship**.
-
-
 
